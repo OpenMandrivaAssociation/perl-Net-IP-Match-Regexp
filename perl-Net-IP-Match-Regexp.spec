@@ -2,7 +2,7 @@
 %define module	Net-IP-Match-Regexp
 %define name	perl-%{module}
 %define version	0.94
-%define rel	2
+%define rel	3
 
 Summary:	Efficiently match IP addresses against IP ranges via regexp
 Name:		%{name}
