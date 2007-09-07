@@ -1,8 +1,8 @@
 
 %define module	Net-IP-Match-Regexp
 %define name	perl-%{module}
-%define version	0.94
-%define rel	3
+%define version	1.00
+%define rel	1
 
 Summary:	Efficiently match IP addresses against IP ranges via regexp
 Name:		%{name}
@@ -11,7 +11,7 @@ Release:	%mkrel %{rel}
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.bz2
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
