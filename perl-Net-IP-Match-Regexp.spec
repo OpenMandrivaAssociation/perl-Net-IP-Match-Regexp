@@ -13,7 +13,6 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.gz
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 %define _requires_exceptions perl(re)
 
